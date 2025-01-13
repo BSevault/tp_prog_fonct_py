@@ -9,7 +9,7 @@ def get_float_input(prompt, non_null=False):
     except ValueError:
       print("Not a number")
 
-a = get_float_input("Enter a number: ")
-b = get_float_input("Enter a non-null number: ", non_null=True)
+a = get_float_input("Enter number 1: ")
+b = get_float_input("Enter non-null number 2: ", non_null=True)
 
 print(f"{a} / {b} = {a/b:.6f}")
