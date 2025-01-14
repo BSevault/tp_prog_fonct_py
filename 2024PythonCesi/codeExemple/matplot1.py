@@ -1,6 +1,6 @@
 # coding: utf-8
 
-# site https://python.doctor/page-creer-graphiques-scientifiques-python-apprendre 
+# site https://python.doctor/page-creer-graphiques-scientifiques-python-apprendre
 # pip install matplotlib  pour installer le module
 
 import matplotlib.pyplot as plt
@@ -89,8 +89,8 @@ plt.show()
 # en provenance de https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 import pandas as pd
 df2 = pd.DataFrame(np.random.rand(10, 4)*2, columns=['a', 'b', 'c', 'd'])
-df2.plot.bar();
+df2.plot.bar()
 
 df2.plot.bar(stacked=True); #barres cumulatives
 
-df2.plot.area(stacked=False);
+df2.plot.area(stacked=False)

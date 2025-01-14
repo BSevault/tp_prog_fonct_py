@@ -1,0 +1,1 @@
+https://anaconda.org/conda-forge/wxpython

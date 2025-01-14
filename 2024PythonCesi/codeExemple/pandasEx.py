@@ -35,4 +35,4 @@ print
 
 #dataframe à partir d'un fichier
 data = pd.read_csv('metal_bands_2017.csv',encoding='latin-1', sep=';')
-print data.head()
+print.data.head()
